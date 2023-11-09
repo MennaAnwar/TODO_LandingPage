@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 30px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff5733; /* Change color on hover */
+}
+
+/* Intro section styles */
+#section1 {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #f0f0f0;
+  background-image: url(images/BG.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.intro-content {
+  margin-left: -500px;
+}
+/* Key Features section styles */
+#section2 {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.feature {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: scale(1.05); /* Enlarge on hover */
+}
+
+.feature img {
+  max-width: 100%;
+  height: auto;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.feature p {
+  font-size: 16px;
+}
+
+/* About section styles */
+#section3 {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.team-members ul {
+  list-style: none;
+  padding: 0;
+}
+
+.team-members ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.team-members ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff5733; /* Change background color on hover */
+}
